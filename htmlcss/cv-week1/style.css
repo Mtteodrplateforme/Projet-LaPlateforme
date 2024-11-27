@@ -1,0 +1,47 @@
+body{
+    background-color: grey;
+}
+
+h1{
+    font-size: 80px;
+}
+
+.section1{
+    list-style-position: inside;
+    position: relative;
+    left: 350px;
+    top: 50px;
+}
+
+.section2{
+    list-style-position: inside;
+    position: relative;
+    left: 350px;
+    top: 100px;
+}
+
+.section3{
+    list-style-position: inside;
+    position: relative;
+    left: 800px;
+    bottom: 270px;
+}
+
+.section4{
+    list-style-position: inside;
+    position: relative;
+    left: 800px;
+    bottom: 250px;
+}
+
+.section5{
+    list-style-position: inside;
+    position: relative;
+    bottom: 400px;
+    left: 350px;
+}
+
+.footer{
+    position: relative;
+    text-align: center;
+}

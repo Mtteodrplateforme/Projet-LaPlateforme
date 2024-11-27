@@ -1,0 +1,270 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.fontback{
+    z-index: -1;
+    position: fixed;
+    height: 150vh;
+    bottom: 0;
+}
+
+.logo{
+    width: 5cm;
+    left: 277px;
+    top: 30px;
+    display: flex;
+    z-index: 1;
+    position: absolute;
+}
+
+.index{
+    width: 24.9cm;
+    height: 5cm;
+    top: 30px;
+    left: 282px;
+    background-color: rgba(255, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.a4-paper{
+    width: 24cm;
+    height: 27.9cm;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sectionfooter{
+    position: absolute;
+    right: 620px;
+    bottom: 0;
+    color: grey;
+}
+
+h1{
+    position: absolute;
+    z-index: 1;
+    right: 470px;
+    top: 50px;
+    font-size: 50px;
+}
+
+.h2present{
+    position: absolute;
+    z-index: 1;
+    color: grey;
+    font-size: 25px;
+    top: 400px;
+    left: 350px;
+}
+
+h3{
+    z-index: 1;
+    position: absolute;
+    color: darkred;
+    font-size: 50px;
+    top: 200px;
+}
+
+h4{
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    left: 750px;
+}
+
+h5{
+    color: white;
+}
+
+.act1{
+    position: absolute;
+    z-index: 1;
+    height: 15vh;
+    left: 350px;
+    top: 400px;
+    transition: transform 0.3s ease;
+}
+
+.act2{
+    position: absolute;
+    z-index: 1;
+    height: 15vh;
+    left: 350px;
+    top: 600px;
+    transition: transform 0.3s ease;
+}
+
+.act3{
+    position: absolute;
+    z-index: 1;
+    height: 15vh;
+    left: 350px;
+    top: 800px;
+    transition: transform 0.3s ease;
+}
+
+.act1:hover{
+    transform: scale(1.1);
+}
+
+.act2:hover{
+    transform: scale(1.1);
+}
+
+.act3:hover{
+    transform: scale(1.1);
+}
+
+.textactu1{
+    color: grey;
+    z-index: 1;
+    position: absolute;
+    top: 380px;
+    left: 550px;
+}
+
+.textactu2{
+    color: grey;
+    z-index: 1;
+    position: absolute;
+    top: 580px;
+    left: 550px;
+}
+
+.textactu3{
+    color: grey;
+    z-index: 1;
+    position: absolute;
+    left: 550px;
+    top: 780px;
+}
+
+.button1{
+    top: 170px;
+    left: 470px;
+    position: absolute;
+    z-index: 1;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button2{
+    top: 170px;
+    right: 265px;
+    position: absolute;
+    z-index: 1;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.act {
+    background-color: black;
+    color: darkred;
+}
+
+.act:hover {
+    background-color: grey;
+    transform: scale(1.05);
+}
+
+.home{
+    position: absolute;
+    height: 5vh;
+    top: 35px;
+    left: 470px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.home:hover{
+    transform: scale(1.1);
+}
+
+.h2gif{
+    background-image: url(./gif/giphy.gif);
+    width: 480px;
+    height: 200px;
+    z-index: 1;
+    position: absolute;
+    top: 590px;
+    left: 350px;
+    transition: transform 0.3s ease;
+}
+
+.r1gif{
+    background-image: url(./gif/giphy.webp);
+    width: 270px;
+    height: 480px;
+    z-index: 1;
+    position: absolute;
+    left: 870px;
+    transition: transform 0.3s ease;
+}
+
+.r1gif:hover{
+    transform: scale(1.03);
+}
+
+.h2gif:hover{
+    transform: scale(1.03);
+}
+
+.h2H2{
+    position: absolute;
+    color: green;
+    top: 780px;
+    left: 680px;
+}
+
+.h2R1{
+    position: absolute;
+    color: blue;
+    top: 780px;
+    right: 350px;
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: white;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.fontback{
+    z-index: -1;
+    position: fixed;
+    height: 150vh;
+    bottom: 0;
+}
+
+.logo{
+    width: 5cm;
+    left: 277px;
+    top: 30px;
+    display: flex;
+    z-index: 1;
+    position: absolute;
+}
+
+.index{
+    width: 24.9cm;
+    height: 5cm;
+    top: 30px;
+    left: 282px;
+    background-color: rgba(255, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.a4-paper{
+    width: 24cm;
+    height: 27.9cm;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sectionfooter{
+    position: absolute;
+    right: 620px;
+    bottom: 0;
+    color: grey;
+}
+
+.button1{
+    top: 170px;
+    left: 470px;
+    position: absolute;
+    z-index: 1;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button2{
+    top: 170px;
+    right: 265px;
+    position: absolute;
+    z-index: 1;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.act {
+    background-color: black;
+    color: darkred;
+}
+
+.act:hover {
+    background-color: grey;
+    transform: scale(1.05);
+}
+
+.home{
+    position: absolute;
+    height: 5vh;
+    top: 35px;
+    left: 470px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.home:hover{
+    transform: scale(1.1);
+}
+
+h1{
+    position: absolute;
+    z-index: 1;
+    right: 470px;
+    top: 50px;
+    font-size: 50px;
+}
+
+.description1{
+    position: absolute;
+    z-index: 1;
+    color: grey;
+    left: 300px;
+    top: 320px;
+}
+
+.descrip{
+    position: absolute;
+    z-index: 1;
+    color: grey;
+    font-size: 30px;
+    left: 400px;
+    top: 250px;
+}
+
+h3{
+    z-index: 1;
+    position: absolute;
+    color: darkred;
+    font-size: 50px;
+    top: 200px;
+}
+
+h4{
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    left: 750px;
+}
+
+.r1present{
+    position: absolute;
+    z-index: 1;
+    height: 30vh;
+    left: 300px;
+    top: 550px;
+}
+
+.caract{
+    position: absolute;
+    color: grey;
+    right: 280px;
+    bottom: 280px;
+    font-size: 20px;
+}
+
+.videor1{
+    position: absolute;
+    z-index: 1;
+    bottom: 200px;
+}
